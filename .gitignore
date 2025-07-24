@@ -1,0 +1,53 @@
+# Java GitIgnore
+# === Java Build Files ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Build Directories ===
+/bin/
+/target/
+/out/
+
+# === Eclipse IDE ===
+.classpath
+.project
+.settings/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+out/
+
+# === VS Code ===
+.vscode/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === Logs and temp files ===
+*.log
+*.tmp
+
+# === Maven ===
+.mvn/
+!mvnw
+!mvnw.cmd
+
+# === Gradle ===
+.gradle/
+build/
+!gradlew
+!gradlew.bat
+
+# === Test output ===
+/test-output/
+
+# === Other Tools ===
+/coverage/
+jacoco.exec
