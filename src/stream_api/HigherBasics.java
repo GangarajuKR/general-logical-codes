@@ -8,13 +8,21 @@ import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
 public class HigherBasics {
-
+    static String[] names = {"Name", "Gangaraju", "Thejas", "PavanaGanga"};
 	public static void main(String[] args) {
 		int[] arr = {2, 3, 4, 5, 9, 5, 6, 8, 19, 33, 22, 786, 45, 5};
 //		System.out.println(filterEvenNumbers(arr));
-		System.out.println(numCount(arr));
-		
+//		System.out.println(numCount(arr));
+toUpperCase();
 	}
+
+    //Convert list of names to uppercase.
+    public static void toUpperCase() {
+        Arrays.stream(names)
+                        .map(String::toUpperCase).forEach(name -> System.out.print(name + " "));
+
+//        System.out.print();
+    }
 	
 	//Filter even numbers from an integer array.
 	public static List<Integer> filterEvenNumbers(int[] arr) {
