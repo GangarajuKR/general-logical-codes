@@ -5,7 +5,8 @@ import java.util.ArrayList;
 
 public class Basic {
 
-	public static void main(String[] args) {
+	void main(String[] args) {
+
 		List<String> al = new ArrayList<>();
 		//Create an ArrayList<String> of fruits and print each item.
 //		al.add("Banana");
